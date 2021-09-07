@@ -1,24 +1,41 @@
 .image-fondo {
-    background-image: url("../img/fondo.jpg");
+    background-image: url("../img/fondo1.jpg");
     background-size: cover;
-    height: 600px;
-  line-height: 200px;
+    height: 750px;
+  line-height: 100px;
 }
 
 .cabecera{
 
-  color:yellow;
+  color:orange;
   text-align: center;
   vertical-align: middle;
   text-shadow: #111 0px 0px 10px;
 }
 .boton {
-border: 1px solid yellow; /*anchura, estilo y color borde*/
+border: 1px solid orange; /*anchura, estilo y color borde*/
 padding: 2px; /*espacio alrededor texto*/
-background-color:orange; /*color botón*/
+background-color:yellowgreen; /*color botón*/
 color:black; /*color texto*/
 text-decoration: none; /*decoración texto*/
 text-transform: uppercase; /*capitalización texto*/
 font-family: 'Helvetica', sans-serif; /*tipografía texto*/
 border-radius: 50px; /*bordes redondos*/
+}
+
+@font-face {
+  font-family: "FontAwesome";
+  src: url("fontawesome-webfont.woff");
+}
+
+p {
+  font-size: 100%;
+}
+
+ .rojo {
+  color: red;
+}
+
+ .verde {
+  color: green;
 }
