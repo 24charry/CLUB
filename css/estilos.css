@@ -1,0 +1,24 @@
+.image-fondo {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+    height: 600px;
+  line-height: 200px;
+}
+
+.cabecera{
+
+  color:yellow;
+  text-align: center;
+  vertical-align: middle;
+  text-shadow: #111 0px 0px 10px;
+}
+.boton {
+border: 1px solid yellow; /*anchura, estilo y color borde*/
+padding: 2px; /*espacio alrededor texto*/
+background-color:orange; /*color botón*/
+color:black; /*color texto*/
+text-decoration: none; /*decoración texto*/
+text-transform: uppercase; /*capitalización texto*/
+font-family: 'Helvetica', sans-serif; /*tipografía texto*/
+border-radius: 50px; /*bordes redondos*/
+}
